@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}
+.nav ul {
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: ;
+list-style: none;
+width: 60%;
+margin: auto;}
+.nav ul li a{    text-decoration: none;
+    color: black;
+padding: 5px ;
+}
+.nav{background-color: cornflowerblue;
+    padding: 10px 0px;}
+.nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(101, 218, 101);
+height: 30px;
+
+font-weight: bold;
+}
+.home-in{width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+row-gap: 25px;
+padding: 50px 0px;
+
+
+
+}
+.card-one{
+    color: ;
+    background-color:antiquewhite ;
+    height: 20vh;
+    width: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-two{
+    color: ;
+    background-color:antiquewhite ;
+    height: 20vh;
+    width: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(247,183,99);
+
+}
+.card{
+    color: ;
+    background-color: ;
+    padding: ;
+    width: 32%;
+border: 1px solid black;
+
+}
+.card-one h1 {
+    font-size: 30px;
+}
+.card-two p {
+    width: 80%;
+    margin: auto;
+}
